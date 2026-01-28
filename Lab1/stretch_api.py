@@ -27,7 +27,7 @@ robot.end_of_arm.move_to('stretch_gripper', 100)
 robot.push_command()
 robot.wait_command()
 
-robot.end_of_arm.move_to('stretch_gripper', 0)
+robot.end_of_arm.move_to('stretch_gripper', -100)
 robot.push_command()
 robot.wait_command()
 time.sleep(0.1)
